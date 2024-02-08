@@ -2,4 +2,16 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="random_color_1">#FF5733</color> <!-- Coral -->
+    <color name="random_color_2">#66CCFF</color> <!-- Sky Blue -->
+    <color name="random_color_3">#FFD700</color> <!-- Gold -->
+    <color name="random_color_4">#9932CC</color> <!-- Dark Orchid -->
+    <color name="random_color_5">#00FF00</color> <!-- Lime -->
+    <color name="random_color_6">#FF4500</color> <!-- Orange Red -->
+    <color name="random_color_7">#00CED1</color> <!-- Dark Turquoise -->
+    <color name="random_color_8">#8A2BE2</color> <!-- Blue Violet -->
+    <color name="random_color_9">#FF8C00</color> <!-- Dark Orange -->
+    <color name="random_color_10">#00FFFF</color> <!-- Cyan -->
+
 </resources>
