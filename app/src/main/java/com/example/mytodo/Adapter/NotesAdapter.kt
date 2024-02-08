@@ -29,11 +29,13 @@ class NotesAdapter(private val context : Context, val listner: NotesClickListner
 
         val currentNote = NotesList[position]
 
-        holder.title.text = currentNote.title
-        holder.title.isSelected = true
-        holder.note.text = currentNote.note
-        holder.date.text = currentNote.date
-        holder.date.isSelected = true
+        holder.apply {
+            title.text = currentNote.title
+            title.isSelected = true
+            note.text = currentNote.note
+            date.text = currentNote.date
+            date.isSelected = true
+        }
 
         // Setting the Background Color of the Card
         holder.notes_layout.setCardBackgroundColor(holder.itemView.resources.getColor(randomColor(), null))
