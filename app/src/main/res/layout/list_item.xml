@@ -24,6 +24,12 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
                 android:text="Title"
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:textStyle="bold"
+                android:scrollHorizontally="true"
+                android:singleLine="true"
+                android:padding="8dp"
                 android:textColor="@color/black"
                 android:textSize="20sp">
 
@@ -38,6 +44,9 @@
             android:layout_alignParentStart="true"
             android:text="Notes"
             android:textColor="@color/black"
+            android:maxLines="11"
+            android:padding="8dp"
+
             android:textSize="15sp">
 
         </TextView>
@@ -46,9 +55,14 @@
             android:id="@+id/tv_date"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
             android:text="Date"
-            android:textColor="@color/black"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:singleLine="true"
+            android:scrollHorizontally="true"
+            android:textColor="#4A4F51"
+            android:padding="8dp"
+            android:maxLines="10"
             android:textSize="10sp">
 
         </TextView>
